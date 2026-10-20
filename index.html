@@ -8,9 +8,10 @@
   <body>
     <h1>Share preview test</h1>
     <ul>
-      <li><a href="/control.html">control.html</a> — baseline: direct image, cacheable page</li>
-      <li><a href="/repro.html">repro.html</a> — proxied image, no content-length, immutable</li>
-      <li><a href="/nostore">nostore</a> — direct image, page sent with private/no-store</li>
+      <li><a href="/control.html">control.html</a> — 1200x630 landscape, 3.9KB — PASSED</li>
+      <li><a href="/repro.html">repro.html</a> — proxied image headers — PASSED</li>
+      <li><a href="/nostore">nostore</a> — prod page cache headers — PASSED</li>
+      <li><a href="/prodimg.html">prodimg.html</a> — real prod image, 1236x1644 portrait, 91KB</li>
     </ul>
   </body>
 </html>
