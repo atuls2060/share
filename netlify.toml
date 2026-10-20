@@ -1,3 +1,7 @@
 [[edge_functions]]
   path = "/img"
   function = "img"
+
+[[edge_functions]]
+  path = "/nostore"
+  function = "nostore"

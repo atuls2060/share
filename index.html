@@ -8,8 +8,9 @@
   <body>
     <h1>Share preview test</h1>
     <ul>
-      <li><a href="/control.html">control.html</a> — direct image URL</li>
-      <li><a href="/repro.html">repro.html</a> — image via /img proxy</li>
+      <li><a href="/control.html">control.html</a> — baseline: direct image, cacheable page</li>
+      <li><a href="/repro.html">repro.html</a> — proxied image, no content-length, immutable</li>
+      <li><a href="/nostore">nostore</a> — direct image, page sent with private/no-store</li>
     </ul>
   </body>
 </html>
